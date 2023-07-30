@@ -2,7 +2,8 @@ import React, { useState, useEffect } from 'react';
 import YourBotArmy from './components/YourBotArmy';
 import BotCollection from './components/BotCollection';
 import BotSpecs from './components/BotSpecs';
-
+import './styles.css';
+'
 
 const App = () => {
   const [enlistedBots, setEnlistedBots] = useState([]);
