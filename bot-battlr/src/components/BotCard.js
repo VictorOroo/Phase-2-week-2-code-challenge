@@ -11,7 +11,7 @@ const BotCard = ({ bot, onBotClick, onEnlist, isEnlisted }) => {
       <p>Damage: {damage}</p>
       <p>Armor: {armor}</p>
       <p>Class: {bot_class}</p>
-      <p>Catchphrase: {catchphrase}</p>
+      <p>Catchphrase: {catchphrase}</p> 
       {!isEnlisted && <button onClick={() => onBotClick(bot)}>View Details</button>}
       <button onClick={() => onEnlist(bot)}>
         {isEnlisted ? 'Enlisted' : 'Enlist'}

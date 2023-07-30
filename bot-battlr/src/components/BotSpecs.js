@@ -13,7 +13,7 @@ const BotSpecs = ({ selectedBot, onEnlist, onBackToListView }) => {
         <p>Damage: {damage}</p>
         <p>Armor: {armor}</p>
         <p>Class: {bot_class}</p>
-        <p>Catchphrase: {catchphrase}</p> 
+        <p>Catchphrase: {catchphrase}</p>
       </div>
       {!selectedBot.isEnlisted && (
         <button onClick={() => onEnlist(selectedBot)}>Enlist</button>

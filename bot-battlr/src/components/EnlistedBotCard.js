@@ -16,7 +16,7 @@ const EnlistedBotCard = ({ bot, onDischarge }) => {
       <p>Armor: {armor}</p>
       <p>Class: {bot_class}</p>
       <p>Catchphrase: {catchphrase}</p>
-      <button className="red-button" onClick={handleXClick}>X</button>
+      <button className="red-button" onClick={handleXClick}>X</button> 
     </div>
   );
 };

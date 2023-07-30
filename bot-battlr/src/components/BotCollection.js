@@ -29,7 +29,7 @@ const BotCollection = ({ onEnlist, enlistedBots }) => {
   };
 
   if (isLoading) {
-    return <div>Loading...</div>; 
+    return <div>Loading...</div>; // This will display a loading message while data is being fetched
   }
 
   return (
