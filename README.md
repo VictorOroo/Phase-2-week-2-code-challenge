@@ -53,6 +53,8 @@ Bot battlr application offers the following features:
   which should replace `BotsCollection`. BotSpecs should have two buttons: one
   to go back to the list view and another to enlist that bot.
 
+  #### Live link to view the project  https://victor-bot-battlr.netlify.app/
+
 ## Support and contact details 🙂
 
 To make a contribution to the code used or any suggestions you can click on the contact link and email me your suggestions.
