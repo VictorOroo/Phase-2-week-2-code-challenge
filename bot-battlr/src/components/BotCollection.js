@@ -29,11 +29,11 @@ const BotCollection = ({ onEnlist, enlistedBots }) => {
   };
 
   if (isLoading) {
-    return <div>Loading...</div>; // Display a loading message while data is being fetched
+    return <div>Loading...</div>; 
   }
 
   return (
-    <div>
+    <div className="container">
       {selectedBot ? (
         <BotSpecs
           selectedBot={selectedBot}
@@ -43,7 +43,7 @@ const BotCollection = ({ onEnlist, enlistedBots }) => {
       ) : (
         <div>
           <h2>Bot Collection</h2>
-          <div>
+          <div className="bot-collection">
             {bots.map((bot) => (
               <BotCard
                 key={bot.id}

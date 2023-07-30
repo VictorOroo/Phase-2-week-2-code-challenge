@@ -4,9 +4,9 @@ const BotSpecs = ({ selectedBot, onEnlist, onBackToListView }) => {
   const { name, health, damage, armor, bot_class, avatar_url, catchphrase } = selectedBot;
 
   return (
-    <div>
+    <div className="container bot-specs">
       <h2>Bot Specifications</h2>
-      <div className>
+      <div className="bot-specs-details">
         <img src={avatar_url} alt={name} />
         <h3>{name}</h3>
         <p>Health: {health}</p>

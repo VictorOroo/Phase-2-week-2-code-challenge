@@ -8,7 +8,7 @@ const EnlistedBotCard = ({ bot, onDischarge }) => {
   };
 
   return (
-    <div>
+    <div className="enlisted-bot-card">
       <img src={avatar_url} alt={name} />
       <h3>{name}</h3>
       <p>Health: {health}</p>
@@ -16,7 +16,7 @@ const EnlistedBotCard = ({ bot, onDischarge }) => {
       <p>Armor: {armor}</p>
       <p>Class: {bot_class}</p>
       <p>Catchphrase: {catchphrase}</p>
-      <button  onClick={handleXClick}>X</button>
+      <button className="red-button" onClick={handleXClick}>X</button>
     </div>
   );
 };

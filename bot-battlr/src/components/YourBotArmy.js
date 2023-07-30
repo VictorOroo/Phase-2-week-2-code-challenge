@@ -7,9 +7,9 @@ const YourBotArmy = ({ enlistedBots, onDischarge }) => {
   };
 
   return (
-    <div>
+    <div className="container">
       <h2>Your Bot Army</h2>
-      <div>
+      <div className="bot-collection">
         {enlistedBots.map((bot) => (
           <EnlistedBotCard key={bot.id} bot={bot} onDischarge={handleDischarge} />
         ))}
