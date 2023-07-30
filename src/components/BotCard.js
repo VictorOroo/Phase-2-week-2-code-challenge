@@ -1,7 +1,7 @@
 import React from 'react';
 
 const BotCard = ({ bot, onBotClick, onEnlist, isEnlisted }) => {
-  const { id, name, health, damage, armor, bot_class, avatar_url, catchphrase } = bot;
+  const {  name, health, damage, armor, bot_class, avatar_url, catchphrase } = bot;
 
   return (
     <div className={`bot-card ${isEnlisted ? 'enlisted' : ''}`}>

@@ -1,7 +1,7 @@
 import React from 'react';
 
 const EnlistedBotCard = ({ bot, onDischarge }) => {
-  const { id, name, health, damage, armor, bot_class, avatar_url, catchphrase } = bot;
+  const {  name, health, damage, armor, bot_class, avatar_url, catchphrase } = bot;
 
   const handleXClick = () => {
     onDischarge(bot);

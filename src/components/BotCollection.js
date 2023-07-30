@@ -8,7 +8,7 @@ const BotCollection = ({ onEnlist, enlistedBots }) => {
   const [selectedBot, setSelectedBot] = useState(null);
 
   useEffect(() => {
-    fetch('http://localhost:8001/bots')
+    fetch('https://vicbotbattlr.onrender.com/bots')
       .then((response) => response.json())
       .then((data) => {
         setBots(data);

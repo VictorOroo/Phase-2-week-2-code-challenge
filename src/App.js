@@ -9,7 +9,7 @@ const App = () => {
   const [selectedBot, setSelectedBot] = useState(null);
 
   useEffect(() => {
-    fetch('http://localhost:8001/bots')
+    fetch('https://vicbotbattlr.onrender.com/bots')
       .then((response) => response.json())
       .then((data) => {
         setEnlistedBots(data.filter((bot) => bot.isEnlisted));
@@ -28,7 +28,7 @@ const App = () => {
   };
 
   const handleDischarge = (bot) => {
-    fetch(`http://localhost:8001/bots/${bot.id}`, {
+    fetch(`https://vicbotbattlr.onrender.com/bots/${bot.id}`, {
       method: 'DELETE',
     })
       .then((response) => response.json())
