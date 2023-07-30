@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import BotCard from './BotCard';
 
 const BotCollection = ({ onEnlist, enlistedBots }) => {
     const [bots, setBots] = useState([]);
