@@ -17,6 +17,9 @@ const BotCollection = ({ onEnlist, enlistedBots }) => {
           setIsLoading(false);
         });
     }, []);
+    if (isLoading) {
+        return <div>Loading...</div>; // Display a loading message while data is being fetched
+      }
   
 }
 export default BotCollection;
