@@ -34,8 +34,8 @@ body {
   
   .bot-card img {
     width: 100%;
-    max-height: 150px; /* Adjust the value to control the image height */
-    object-fit: contain; /* Change to 'contain' */
+    max-height: 150px; 
+    object-fit: contain; 
     border-radius: 8px;
     margin-bottom: 10px;
   }
