@@ -20,6 +20,11 @@ const BotCollection = ({ onEnlist, enlistedBots }) => {
     if (isLoading) {
         return <div>Loading...</div>; // Display a loading message while data is being fetched
       }
-  
+      return (
+        <div className="container">
+         <BotCard/>
+
+        </div>
+      );
 }
 export default BotCollection;
