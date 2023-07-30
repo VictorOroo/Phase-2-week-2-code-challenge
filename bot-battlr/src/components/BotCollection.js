@@ -17,6 +17,14 @@ const BotCollection = ({ onEnlist, enlistedBots }) => {
           setIsLoading(false);
         });
     }, []);
+    const handleBotClick = (bot) => {
+        setSelectedBot(bot);
+      };
+    
+      const handleBackToListView = () => {
+        setSelectedBot(null);
+      };
+    
     if (isLoading) {
         return <div>Loading...</div>; // Display a loading message while data is being fetched
       }
