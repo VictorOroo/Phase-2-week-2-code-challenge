@@ -61,3 +61,82 @@ body {
   .bot-card button:hover {
     background-color: #45a049;
   }
+
+  .your-bot-army {
+    margin-top: 40px;
+  }
+  
+  .enlisted-bot-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .enlisted-bot-card img {
+    width: 100%;
+    max-height: 150px; 
+    object-fit: contain;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .enlisted-bot-card h3 {
+    font-size: 18px;
+    margin: 5px 0;
+  }
+  
+  .enlisted-bot-card p {
+    margin: 2px 0;
+  }
+  
+  .enlisted-bot-card button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .enlisted-bot-card button:hover {
+    background-color: #e53935;
+  }
+  
+
+  .bot-specs {
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .bot-specs img {
+    width: 100%;
+    max-height: 250px; 
+    object-fit: contain; 
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .bot-specs h3 {
+    font-size: 24px;
+    margin: 10px 0;
+  }
+  
+  .bot-specs p {
+    font-size: 16px;
+    margin: 5px 0;
+  }
+  .red-button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
