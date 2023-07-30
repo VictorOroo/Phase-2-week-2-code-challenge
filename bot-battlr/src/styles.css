@@ -18,3 +18,46 @@ body {
     margin: 0 auto;
     padding: 20px;
   }
+
+  .bot-collection {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .bot-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .bot-card img {
+    width: 100%;
+    max-height: 150px; /* Adjust the value to control the image height */
+    object-fit: contain; /* Change to 'contain' */
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  .bot-card h3 {
+    font-size: 18px;
+    margin: 5px 0;
+  }
+  
+  .bot-card p {
+    margin: 2px 0;
+  }
+  
+  .bot-card button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .bot-card button:hover {
+    background-color: #45a049;
+  }
